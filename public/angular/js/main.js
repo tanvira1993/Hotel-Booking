@@ -178,14 +178,14 @@ initialization can be disabled and Layout.init() should be called on page load c
 }]);
 */
 /* Init global settings and run the app */
-App.run(['$rootScope', '$http','$state','$window', '$filter', '$location',function($rootScope, $http, $state,$window, $filter,$location) {
+/*App.run(['$rootScope', '$http','$state','$window', '$filter', '$location',function($rootScope, $http, $state,$window, $filter,$location) {
 	
 
 	
 
 
 
-}]);
+}]);*/
 /*
     $rootScope.$state = $state; // state to be accessed from view
     $rootScope.$settings = settings; // state to be accessed from view
